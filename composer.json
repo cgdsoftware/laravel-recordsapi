@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iamdevmaniac\\Recordsapi\\RecordsApiServiceProvider"
+            ],
+            "aliases": {
+                "Recordsapi": "Iamdevmaniac\\Recordsapi\\Facades\\RecordsApiFacade"
+            }
+        }
+    }
 }

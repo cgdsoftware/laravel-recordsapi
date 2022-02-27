@@ -1,6 +1,6 @@
 <?php
 
-namespace Iamdevmaniac\Recordsapi\Http\Services;
+namespace Iamdevmaniac\Recordsapi\Http;
 
 use Iamdevmaniac\Recordsapi\traits\MasterTrait;
 use Illuminate\Http\Request;

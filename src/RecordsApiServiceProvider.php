@@ -1,6 +1,9 @@
 <?php
 
 namespace Iamdevmaniac\Recordsapi;
+
+use Iamdevmaniac\Recordsapi\Http\AllServices;
+use Iamdevmaniac\Recordsapi\Http\Services\AllServices as ServicesAllServices;
 use Illuminate\Support\ServiceProvider;
 
 class RecordsApiServiceProvider extends ServiceProvider
@@ -20,6 +23,10 @@ class RecordsApiServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->app->bind('recordsapi', function()
+        {
+            return new AllServices();
 
+        });
     }
 }
