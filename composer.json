@@ -1,0 +1,19 @@
+{
+    "name": "iamdevmaniac/recordsapi",
+    "description": "This helps to consume the records api into your application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iamdevmaniac\\Recordsapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Segun Bamidele",
+            "email": "segunemma2003@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
